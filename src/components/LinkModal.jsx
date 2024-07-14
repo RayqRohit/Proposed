@@ -15,8 +15,9 @@ const LinkModal = ({ className = '', person = null, show = false, hide = () => {
         } else {
             const linkID = person.split(' ').join('-');
             // const genLink = `${window.location.origin}/${linkID}`;
-            const genLink = `https://proposedby.vercel.app/${linkID}`;
-            // const genLink = `https://proposedby.vercel.app/${encodeURIComponent(linkID)}`;
+            const genLink = `https://proposedby.vercel.app/${encodeURIComponent(linkID)}`;
+
+            
 
 
 
