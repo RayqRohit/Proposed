@@ -1,5 +1,5 @@
 {
-  "name": "proposed",
+  "name": "propose",
   "version": "1.0.0",
   "description": "a lovely web template for couples who want to share their feelings with their special person.",
   "main": "vite.config.js",
@@ -256,7 +256,6 @@
     "universalify": "^2.0.0",
     "uri-js": "^4.4.1",
     "v8-compile-cache": "^2.3.0",
-    "vite": "^2.9.18",
     "vite-plugin-html": "^3.2.0",
     "warning": "^4.0.3",
     "which": "^2.0.2",
@@ -265,9 +264,15 @@
     "wrappy": "^1.0.2",
     "yallist": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.3.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "author": "",
   "license": "ISC"
