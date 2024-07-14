@@ -14,11 +14,11 @@ const LinkModal = ({ className = '', person = null, show = false, hide = () => {
             setProposeLink(false);
         } else {
             const linkID = person.split(' ').join('-');
-            // const genLink = `${window.location.origin}/${linkID}`;
-            const genLink = `https://proposedby.vercel.app/${encodeURIComponent(linkID)}`;
+            const genLink = `${window.location.origin}/${linkID}`;
+            // const genLink = `https://proposedby.vercel.app/${encodeURIComponent(linkID)}`;
 
             
-
+            
 
 
 
