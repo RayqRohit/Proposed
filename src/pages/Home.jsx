@@ -18,7 +18,7 @@ const Home = ({ className = '' }) => (
                         Scared to <font className="text-danger">Express</font> Your Feelings?
                         </h1>
                         <p className="hero_text-description">
-                        Don't worry, I'm here to help. Enter your Valentine's name and generate a personalized proposal link."
+                        Don't worry, I'm here to help. Enter your <span style={{ color: '#ff0000' }}>Valentine's name</span> and generate a personalized proposal link."
                         </p>
 
                         <ProposeForm className="hero_text-form mt-4 mt-md-5" />
